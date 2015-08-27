@@ -43,5 +43,7 @@ group :development, :test do
   gem 'spring'
 
   gem 'rails-footnotes', '~> 4.0'
+  gem 'g'
+  gem 'terminal-notifier'
 end
 

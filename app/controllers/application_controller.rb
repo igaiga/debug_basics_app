@@ -5,4 +5,9 @@ class ApplicationController < ActionController::Base
 
   # We should write before_action { console } in controller or <%= console %> in views to use web console.
   # before_action { console }
+
+  # g gem
+  before_action { g "#{self.class.name}##{action_name}" }
+  #before_action { g "#{params[:book]}" }
+
 end
