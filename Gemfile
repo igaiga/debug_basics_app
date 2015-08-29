@@ -45,5 +45,11 @@ group :development, :test do
   gem 'rails-footnotes', '~> 4.0'
   gem 'g'
   gem 'terminal-notifier'
+
+  gem 'pry-rails'
+  gem 'awesome_print'
+  # Add follow codes to .pryrc.
+  #   require "awesome_print"
+  #   AwesomePrint.pry!
 end
 
