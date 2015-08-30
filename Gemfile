@@ -36,6 +36,11 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'pry-byebug'
+  gem 'pry-rails'
+  gem 'awesome_print'
+  # Add follow codes to .pryrc.
+  #   require "awesome_print"
+  #   AwesomePrint.pry!
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -46,11 +51,5 @@ group :development, :test do
   gem 'rails-footnotes', '~> 4.0'
   gem 'g'
   gem 'terminal-notifier'
-
-  gem 'pry-rails'
-  gem 'awesome_print'
-  # Add follow codes to .pryrc.
-  #   require "awesome_print"
-  #   AwesomePrint.pry!
 end
 
