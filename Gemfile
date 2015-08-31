@@ -53,3 +53,6 @@ group :development, :test do
   gem 'terminal-notifier'
 end
 
+group :development do
+  gem 'letter_opener'
+end
