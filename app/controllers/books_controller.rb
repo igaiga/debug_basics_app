@@ -5,6 +5,7 @@ class BooksController < ApplicationController
   # GET /books.json
   def index
     @books = Book.all
+    # ExampleMailer.hello.deliver_now # mail sending test
   end
 
   # GET /books/1
